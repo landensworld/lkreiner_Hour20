@@ -26,22 +26,16 @@ public class GameManager : MonoBehaviour
 		if (amount < 0)
 			SlowWorldDown();
 	}
-
 	void SlowWorldDown()
 	{
-		// Cancel any invokes to speed the world up
-		// Then slow the world down for 1 second
 		CancelInvoke();
 		Time.timeScale = 0.5f;
 		Invoke("SpeedWorldUp", 1);
 	}
-
 	void SpeedWorldUp()
 	{
 		Time.timeScale = 1f;
 	}
-
-	// Note this is using Unity’s legacy GUI system
 	void OnGUI()
 	{
 		if (!isGameOver)

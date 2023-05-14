@@ -15,13 +15,11 @@ public class Player : MonoBehaviour
 	Renderer mesh;
 	Collider collision;
 	bool canPhase = true;
-
 	void Start()
 	{
 		mesh = GetComponentInChildren<SkinnedMeshRenderer>();
 		collision = GetComponent<Collider>();
 	}
-
 	void Update()
 	{
 		float xMove = Input.GetAxis("Horizontal") * Time.deltaTime * strafeSpeed;
@@ -40,7 +38,6 @@ public class Player : MonoBehaviour
 			Invoke("PhaseIn", phaseCooldown);
 		}
 	}
-
 	void PhaseIn()
 	{
 		canPhase = true;

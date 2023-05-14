@@ -1,7 +1,10 @@
 1. Is the game to easy or hard? Give 3 reasons why it is easy or hard.
+I believe there are aspects of the game that can make it both easy and hard. Too easy: not enough obstacles. Too hard: slow movement that builds momentum. Too easy: obstacles and powerups move rather slow.
 2. What 3 changes would you do to make it easier or harder?
+I would give the game more obstacles, I would make the player move faster, and I would give more powerups that have different effects.
 3. List three things that would give it a "wow" factor.
+I think it would be cool if the player got boosted when they hit a powerup. I believe building a more eye-catching scenery would also help. Lastly, I think if the game had levels with an end goal then that would also improve it.
 4. What parts of the game are fun? 3 items
-It is fun to catch the powerups, especially when they are near an obstacle. It is also fun to navigate between obstacles. 
-The most fun part is to catch a powerup right before running out of time.
+It is fun to catch the powerups, especially when they are near an obstacle. It is also fun to navigate between obstacles. The most fun part is to catch a powerup right before running out of time.
 5. What parts of the game are tedious? 3 items
+The player moves too slowly. The movement is rather sluggish. Powerups can be too hard/impossible to reach.

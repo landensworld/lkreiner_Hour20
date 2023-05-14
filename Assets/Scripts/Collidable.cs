@@ -10,7 +10,6 @@ public class Collidable : MonoBehaviour
 	{
 		transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
 	}
-
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "Player")
@@ -19,5 +18,4 @@ public class Collidable : MonoBehaviour
 			Destroy(gameObject);
 		}
 	}
-
 }

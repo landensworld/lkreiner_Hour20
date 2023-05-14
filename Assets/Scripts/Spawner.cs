@@ -14,7 +14,6 @@ public class Spawner : MonoBehaviour
 	{
 		manager = GetComponent<GameManager>();
 	}
-
 	void Update()
 	{
 		elapsedTime += Time.deltaTime;
